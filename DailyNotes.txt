@@ -1,0 +1,147 @@
+	Java Fullstack
+	
+	
+	
+	java developer
+	database developer
+	frontend develoeper
+	
+	
+	
+	corejava			case study-1
+	database(mysql)
+	JDBC
+	JPA	with hibernate	case study-2
+	SPring 
+	Springboot			case study-3
+	
+	html
+	css
+	js
+	bs
+	ts
+	angular				case study-4
+	
+	
+	
+	CoreJava:
+	============
+	
+	language:
+	===========
+	
+		communication with human
+		
+	Programming Language:
+========================	
+	
+		communication with machine
+	
+		software
+	
+	java ,python,c,c#,.net,....
+	
+	
+	POP 							OOP
+B,BCPL,C,COBOL,PASCAL,PHOTON	java,python,.net,c++...
+	
+	
+			1)Performance		inheritance,polymorphisam
+			2)Security			abstraction,encapsulation
+			
+			
+													oracle corporation
+			
+			Why JAVA?		1996					sun micro system-->james gosling
+			
+			java 1.8/8
+										21
+	
+				1)platform independent  WORA
+				2)garbage collection		garbage collector 
+					
+	
+			netflix->mobile,laptop,tv,tab....
+	
+	
+	
+	
+		.net-->platform dependent  microsoft
+	
+	
+	
+	machine1 		java app
+	windows11		.net app
+	
+	
+	
+	machine2   	machine3
+ 	mac 			linux
+	
+	
+	JAVA :
+		.html,.css,.py, .java 
+		
+		
+		java -->download 
+		
+		
+		C:\Program Files\Java\jdk1.8.0_281\bin
+		
+		
+		https://www.javatpoint.com/javafx-how-to-install-java
+
+C:\Users\SANDEEP>java -version
+java version "1.8.0_281"
+Java(TM) SE Runtime Environment (build 1.8.0_281-b09)
+Java HotSpot(TM) 64-Bit Server VM (build 25.281-b09, mixed mode)
+
+C:\Users\SANDEEP>javac -version
+javac 1.8.0_281		
+	
+	
+	
+	welcome to java 
+	
+	
+	
+	
+Welcome.java //source code 
+	
+	
+	
+	alphabets -->26
+	
+	
+	java keywords --->53-->lower case 
+	
+						33
+	
+	
+	execute
+	
+	 jdk-->jre-->JVM-->0's 1's binary /byte 
+	
+	
+	translators-->translation
+	
+	compiler------->byte code -->compailation
+	.java			.class
+	
+	javac filename.java
+	
+	
+	JVM-->main 
+	
+	java classname
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
