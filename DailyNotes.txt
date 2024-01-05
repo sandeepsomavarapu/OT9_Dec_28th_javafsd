@@ -106,7 +106,7 @@ javac 1.8.0_281
 	
 	
 	
-Welcome.java //source code 
+Welcome.java //source code  JDK-->JRE-->JVM
 	
 	
 	
@@ -128,8 +128,9 @@ Welcome.java //source code
 	compiler------->byte code -->compailation
 	.java			.class
 	
-	javac filename.java
+	javac filename.java		--->compiler .class
 	
+	java classname			-->JVM--->
 	
 	JVM-->main 
 	
@@ -181,7 +182,7 @@ Variables:
 				int		4 bytes		-2147483648 to 2147483647
 				long	8 bytes		-(2 power 63) to (2 power 63)-1
 																	byte age =31;-->1 byte
-				float	4 bytes
+				float	4 bytes			decimal places
 				double	8 bytes			23.34258234292374
 				
 				boolean 1 bit  true-1,false-0
@@ -194,7 +195,74 @@ Variables:
 		java-->UNICODE->english,18  0--65536
 			
 	
+	Instance and static 
+	===================
+1)Syntax
+
+	-->to define static properties we have to use static keyword
+	-->if there is no static keyword i.e instance 
+
+
+2)Memory
+	-->static properties will get memory only once at the time of class loading into jvm   javac filename.java--->java classname
+	-->instance properties will get memory at the time object creation
 	
+				class :its a collection of data members and member functions
+				object :instance(memory) of a class 
+				
+					syntax
+					A		classname objname=new classname();
+								A obj=new A();-->memory created for instance properties
+3)Access
+
+			instance properties can be accessed by using objname 
+			static properties can be accessed by using classname 
+
+4)Usage	
+	
+		if it is common property will go for static 
+				
+					countrycode,countryname,schoolname,orgname,college name
+					
+		if it is unique data will go for instance
+	
+					eid,aadhar,pan,contact
+	
+package,import
+
+	
+package:
+========
+	folder
+	
+	package 
+		group realted classes
+
+		Scanner -->packages 	import java.util.Scanner
+		
+		2 types
+		
+			1.predefined  java.lang
+			2.user defined 
+	
+Eclipse	
+	
+	
+	NOTE:
+		BY DEFAULT PACKAGE AVAILABLE FOR EVERY JAVA FILE JAVA.LANG
+	
+	
+	import packagname
+	
+	import java.util.Date;
+	
+	
+	
+	package 
+	
+	eclipse :IDE
+	
+	eclipse,netbeans,intellji,vscode,sts.....
 	
 	
 	
