@@ -265,6 +265,46 @@ Eclipse
 	eclipse,netbeans,intellji,vscode,sts.....
 	
 	
+				compiler		
+	
+	java filename.java--->.class--->jvm--->output
+	
+			compailation			execution
+	
+	
+	JVM Architecture:
+	
+			java classname 
+			
+					CLSS(class loader sub sytem)
+					
+					Memory areas	5 memory area
+					
+					execution engine gc,jit,interpreter
+	
+	class Test
+	{
+	int age=31;	//instance-->how much->4 bytes-->when--? --->where?--->
+	static int countryCode=01;-->how much-->4 -->when-->?---->where?
+		public static void main(String args[]){
+			char gender='M';		where?
+			Test test=new Test();//all instance properties will get memory
+			
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
