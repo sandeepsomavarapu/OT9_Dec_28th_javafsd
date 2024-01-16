@@ -128,7 +128,7 @@ Welcome.java //source code  JDK-->JRE-->JVM
 	compiler------->byte code -->compailation
 	.java			.class
 	
-	javac filename.java		--->compiler .class
+	javac filename.java		--->compiler---> .class
 	
 	java classname			-->JVM--->
 	
@@ -153,7 +153,7 @@ Identifiers:
 		a-z
 		A-Z
 		0-9
-		_
+		_ 
 		$
 	
 Variables:
@@ -165,7 +165,7 @@ Variables:
 		sandeep_trainer 94949499494
 	
 		local variables
-		global variables 
+		global variables -->insntance and static 
 	syntax:
 			
 		datatype varname=value
@@ -180,7 +180,7 @@ Variables:
 				byte	1 byte		-128 to 127
 				short	2 bytes		-32768 to 32767
 				int		4 bytes		-2147483648 to 2147483647
-				long	8 bytes		-(2 power 63) to (2 power 63)-1
+		0		long	8 bytes		-(2 power 63) to (2 power 63)-1
 																	byte age =31;-->1 byte
 				float	4 bytes			decimal places
 				double	8 bytes			23.34258234292374
@@ -292,16 +292,40 @@ Eclipse
 			
 		}
 	}
+	instance 
+	
+	methodarea   heaparea  stackarea
 	
 	
 	
 	
+	Variables:
 	
 	
+		sandeeptrainer=949494949
 	
 	
+		datatype varname=value
 	
 	
+		2types
+			local 
+			global -->instance static
+	
+Methods:
+=========	
+	2 types  code reusability
+	
+	public static void main(String[] args) 
+	
+	syntax:
+	
+	
+	accessmodifier static/instance returntype methodname(dt param1, dt param2 ....)
+	{
+	
+	
+	}
 	
 	
 	
