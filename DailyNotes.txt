@@ -379,20 +379,38 @@ class Welcome  //PascalCase
 	
 }  		
 		
+	OOPS	
+		
+			1)Performance		inheritance,polymorphisam
+			2)Security			abstraction,encapsulation
 		
 		
 		
 		
+	INHERITANCE:
+=================	
+		
+		its a process aquiring the features/properties from parent to child
+		
+		CODE REUSABILITY
+		
+						extends ,implements
+		class Test
+		{
+		10 variables
+		30 methods
+		}
+		
+		class Sample extends Test
+		{
+		20 variables
+		20 methods 
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		}
+	
+	NOTE: 
+	the default package for every java file is  java.lang
+	the default parent class for every java class is  java.lang.Object
 	
 	
