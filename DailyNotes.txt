@@ -410,7 +410,97 @@ class Welcome  //PascalCase
 		}
 	
 	NOTE: 
-	the default package for every java file is  java.lang
-	the default parent class for every java class is  java.lang.Object
+	By default package for every java file is  java.lang
+	By default parent class for every java class is  java.lang.Object
+	
+	
+	
+	MI is not supported by java through classes
+	MI is  supported by java through interface
+	
+	
+	methods:
+	
+		
+	
+	accessmodifier static/instance returntype methodname(dt param1, dt param2 ....)
+	{
+	
+	
+	}
+	
+	method with body/logic/implementation concrete method
+	
+	method with out body/logic/implementation abstract method
+	
+	
+	public void m1()//concrete method
+	{
+	
+	}
+	
+	public abstract void m2();//abstract method
+	
+	
+	
+		Abstraction is a process of hiding internal details by showcasing the functionality.
+			
+			Abstract class 0-100%
+			interface		100%
+	
+	
+	atm screen
+		
+			withdraw
+			
+			deposit
+			
+			pin change
+			
+			mini statement
+	
+	
+	
+	class 					its collection of only concrete methods
+	abstract class			its combination of both concrete and abstract methods
+	interface				its collection of only abstract methods
+	
+	
+	
+		by default interface methods are public abstract
+		by default interface variables are public static final
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
