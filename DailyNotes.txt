@@ -575,27 +575,38 @@ class Welcome  //PascalCase
 		 before the class
 		
 		
+		this,super,accessmodifiers,constructor,encapsulation
+		
+		
+	accessmodifiers	
+		
+		public		anywhere 
+		private 	class level scope
+		protected	package level scope+outside the package in child class
+		default		package level scope
+		
+			scope
 		
 		
 		
+		in java file any number of classes we can have but only 
+		one public class allowed that sholud filename and it should have main method
 		
 		
+		Constuructor:
+		=============
 		
+			constructor is a special member function,which is used to intialize the object and to intialize the instance variables
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+			
+				classname objectname=new classname()
+				
+				classname objectname=new constructor()
 	
-	
-	
-	
-	
+				A obj=new A();
+			
+				
+		constructor name must be classname
 	
 	
 	
