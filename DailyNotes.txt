@@ -609,14 +609,18 @@ class Welcome  //PascalCase
 		constructor name must be classname
 	
 	
+	this	:To represent current class properties(variable,method,constructor,object)
 	
 	
+	super	:TO reperesent parent class properties(variable,method,constructor)
 	
 	
+Encapsulation:
+===============
 	
+	its process of grouping/wrapping the data and corresponding methods together
 	
-	
-	
+		
 	
 	
 	
