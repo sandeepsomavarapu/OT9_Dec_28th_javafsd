@@ -621,6 +621,37 @@ Encapsulation:
 	its process of grouping/wrapping the data and corresponding methods together
 	
 		
+Exception Handling:
+===================
+			two dis-advantages with out exception handling
+			
+			1)system defined error messages 
+			2)abnormal termination
+	
+	Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at com.ot9.exceptions.ExceptionEx.main(ExceptionEx.java:13)
+
+		two advantages with  exception handling
+			
+			1)user friendly error messages 
+			2)normal termination
+	
+	Cannot divide by zero
+	
+	
+	throw new Exception();
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
