@@ -1,7 +1,7 @@
-package com.astra.threads;
+package com.ot9.threads;
 
 class Account {
-	public int balance;
+	public int balance;// 5000
 
 	public Account() {
 		balance = 5000;
@@ -14,7 +14,7 @@ class Account {
 			e.printStackTrace();
 		}
 		balance = balance - bal;
-		System.out.println("Amount withdrawn = " + bal);
+		System.out.println("Amount withdrawn = " + bal);// 500
 		System.out.println("Remaining balance = " + balance);
 	}
 
@@ -40,22 +40,22 @@ class Account {
 }
 
 class Transaction implements Runnable {
-	Account obj;// has-a
+	Account obj;
 
 	Transaction(Account a) {
 		obj = a;
 	}
 
 	public void run() {
-		obj.withdraw(500);// 4500
-		obj.deposit(1000);// 5500
-		obj.enquiry();// 5500
+		obj.withdraw(500);
+		obj.deposit(1000);
+		obj.enquiry();
 	}
 }
 
 public class ThreadSync {
 	public static void main(String[] args) throws Exception {
-		Account a = new Account();// balance=5000
+		Account a = new Account();
 		Transaction w1 = new Transaction(a);
 		Thread t1 = new Thread(w1);
 		Thread t2 = new Thread(w1);

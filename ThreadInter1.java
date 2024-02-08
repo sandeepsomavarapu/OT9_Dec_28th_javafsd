@@ -1,80 +1,77 @@
-package com.astra.threads;
-
-class Number {
-	public int n;
-	boolean value = false;
-
+package com.ot9.threads;
+class Number
+{   public int n;//1,2
+	boolean value=false;
 	synchronized void even(int n)//2
 	{
-		if (!value)// true
-		{
+		if(!value)//false
 			try {
-				// Thread.sleep(1000);
 				wait();
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		}
-		this.n = n;
-		System.out.println(n);// 1,2,
-		value = false;
+				e.printStackTrace();}
+		this.n=n;
+		System.out.println(n);//2
+		value=false;
 		notify();
-	}// 1--100 even odd wait,notify,notifyAll
-
-	synchronized void odd(int n)// 1,2,3
+	}
+	synchronized void odd(int n)//1,3
+		{
+			if(value)//false
+			{
+				try 
+				{
+					wait();
+				}
+				catch (InterruptedException e)
+				{
+					e.printStackTrace();
+				}}
+			this.n=n;		
+			System.out.println(n);//1,2,3
+			value=true;
+			notify();
+		}
+}
+class Odd implements Runnable
+{
+	Number num;	
+	Odd(Number num)
 	{
-		if (value)// false
+		this.num=num;
+		new Thread(this,"odd").start();
+	}
+	public void run()
+	{
+		for(int i=1;i<=100;i=i+2)
 		{
-			try {
-				// Thread.sleep(1000);
-				wait();
-
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
+			num.odd(i);//1,3
 		}
-		this.n = n;
-		System.out.println(n);// 1,3,5,
-		value = true;
-		notify();
 	}
 }
-
-class Odd implements Runnable {
+ class Even implements Runnable
+{
 	Number num;
-
-	Odd(Number num) {
-		this.num = num;
-		new Thread(this, "odd").start();
+	
+	Even(Number num)
+	{
+		this.num=num;
+		Thread t=new Thread(this,"even");
+		t.start();
 	}
-
-	public void run() {
-		for (int i = 1; i <= 100; i = i + 2) {
-			num.odd(i);// 1,3,5,....
+	public void run()
+	{
+		for(int i=2;i<=100;i=i+2)
+		{
+		num.even(i);//2
 		}
 	}
 }
-
-class Even implements Runnable {
-	Number num;// has-a
-
-	Even(Number num) {
-		this.num = num;
-		new Thread(this, "even").start();
-	}
-
-	public void run() {
-		for (int i = 2; i <= 100; i = i + 2) {
-			num.even(i);// 2,4,6....
-		}
-	}
-}
-
-public class ThreadInter1 {
-	public static void main(String[] args) {
-		Number number = new Number();
-		Even e = new Even(number);
-		Odd d = new Odd(number);
+public class ThreadInter1
+{
+	public static void main(String[] args)
+	{
+		Number number=new Number();
+		Even e=new Even(number);
+		Odd d=new Odd(number);	
 	}
 }

@@ -1,8 +1,9 @@
-package com.astra.threads;
+package com.ot9.threads;
 
 class First {
-	public synchronized void display(String msg) {
-		System.out.print("[" + msg);// [welcome][new][ja ]
+	public synchronized void display(String msg)// [welcome][new][java programmer]
+	{
+		System.out.print("[" + msg);
 		try {
 			Thread.sleep(5000);
 		} catch (InterruptedException e) {
@@ -14,17 +15,17 @@ class First {
 
 class Second extends Thread// is-a
 {
-	String msg;
+	String msg;// welcome,new
 	First fobj;// has-a
 
-	Second(First fp, String str) {
-		this.fobj = fp;
-		this.msg = str;
+	Second(First fobj, String msg) {
+		this.fobj = fobj;
+		this.msg = msg;
 		this.start();
 	}
 
 	public void run() {
-		fobj.display(msg);// welcome
+		fobj.display(msg);// new
 	}
 }
 
@@ -34,9 +35,9 @@ public class ThreadWithSync {
 
 		Second ss = new Second(fnew, "welcome");
 
-		ss = new Second(fnew, "new");
+		Second ss1 = new Second(fnew, "new");
 
-		ss = new Second(fnew, "java programmer");
+		Second ss2 = new Second(fnew, "java programmer");
 
 	}
 }

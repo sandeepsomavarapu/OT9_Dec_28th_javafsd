@@ -610,7 +610,7 @@ class Welcome  //PascalCase
 	
 	
 	this	:To represent current class properties(variable,method,constructor,object)
-	
+			
 	
 	super	:TO reperesent parent class properties(variable,method,constructor)
 	
@@ -626,7 +626,7 @@ Exception Handling:
 			two dis-advantages with out exception handling
 			
 			1)system defined error messages 
-			2)abnormal termination
+			2)abnormal terminationX 
 	
 	Exception in thread "main" java.lang.ArithmeticException: / by zero
 	at com.ot9.exceptions.ExceptionEx.main(ExceptionEx.java:13)
@@ -641,15 +641,86 @@ Exception Handling:
 	
 	throw new Exception();
 	
+String,StringBuffer,StringBuilder:
+==================================		java.lang 
 	
+		public static void main(String args[])
+		
+		
+		
+		
+		group of chars /collections of chars 
+		
+		
+		
+		String -->imuttable-->fixed
+		
+		SBuffer,SBuilder--->muttable
+		
+		
+		
+		String literal 
+		
+			String name="";
+			
+			
+		String name1=new String("");	
+		
+		JVM--->HEAP AREA-->SCP
+		
+		
+		
+		public void m1()	// no thread safety			t1,t2,t3
+		{
+		
+		}
+		
+		public synchronized void m2()//thread safety
+		{
+		//t1
+		}
+Multi Tasking:
+=============		
+		executing several tasks simultaniously
+		
+		1)Process based multi tasking
+		
+			executing several tasks simultaniously where each task is seprate independent process
+			
+				ex:gotomeeting,eclipse,.....
+			
+		2)Thread based multi tasking / multi threading 
+			
+		   executing several tasks simultaniously where each and every task is part of same process
+			
+				ex:Notepad,eclipse
+		
 	
+	2 ways 
 	
+		1.implements Runnable -->java.lang -->Funtional Interface--->SAM-->run
+		2.extends Thread 
 	
+		interface-->all are abstract methods
+	FunctionalInterface-->SAM
+	marker interface--->with zero abstract 
 	
+	class App implements Runnable
+	{
+	run()
+	{
 	
+	}
 	
+	}
+	class App1 extends Thread
+	{
+	run()
+	{
 	
+	}
 	
+	}
 	
 	
 	
