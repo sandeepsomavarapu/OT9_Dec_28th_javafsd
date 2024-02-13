@@ -722,8 +722,57 @@ Multi Tasking:
 	
 	}
 	
+	thread class methods-->start,run,sleep,currentthread,getName,setName,getPriority,setPriority
+	
+	synchronized
+	
+	inter thread communication-->thread communication
 	
 	
+	Object-->wait,notify,notifyAll
+	
+	
+FILE IO/Stream IO:
+==================
+	
+	
+	
+	java --->file,database 
+	
+	
+	small amount of data-->file
+	large amount of data-->database
+	
+	
+	 java.io
+	
+	stream-->flow of data
+	
+	1)Character stream--->file,filewriter,filereader,bufferedwriter,bufferedreader,printwriter
+	
+	2)Byte stream		- 2bytes  binary
+	
+	3)Data stream
+	
+	4)Buffered stream	--1024 bytes
+	
+	5)Object stream		-->Serialization,Deserialization
+	
+	
+	Serialization:
+	
+		object data to byte data 
+		
+	Deserialization:
+	
+		byte data to object data 
+	
+	transiant
+	
+	
+	
+	
+		
 	
 	
 	
