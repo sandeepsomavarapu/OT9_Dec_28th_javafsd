@@ -770,9 +770,69 @@ FILE IO/Stream IO:
 	transiant
 	
 	
+	FILE IO Task:
+	=============
+	save some username and password in file
 	
-	
+		username 
 		
+		password 
+		
+		login success
+		
+		enter valid credentials
+	
+	Collections Framework:
+	======================
+	
+	variables
+		int a=123;
+			a=124;
+			
+			arrays
+			
+			group of values
+			
+			index-->0
+			
+		Limitations with arrays
+
+			1)arrays will allow only homogeneous data/similar data
+			2)array size is fixed/not growable in nature 
+			3)no utility methods
+			
+		Advantages with collections
+		
+			1)collections will allow both homogeneous data/similar data and haterogeneous data 
+			2)collections size is not fixed/ growable in nature 
+			3)lots utility methods		
+	
+	List:
+		1)duplicates are allowed 
+		2)insertion order preserved 
+	
+	
+	
+	
+	al methods are not synchronized	,default 10 but increase size (cc*3/2)+1
+	vector methods are synchronized and its a leggacy class,deafult size 10,will double size
+	stack is to achieve FILO and leggacy 
+	Queue is to achieve FIFO
+	
+	LinkedList
+	
+	Set
+		HashSet,LinkedHashSet,TreeSet
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
