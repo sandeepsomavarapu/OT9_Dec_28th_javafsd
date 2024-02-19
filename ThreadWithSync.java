@@ -1,11 +1,11 @@
 package com.ot9.threads;
 
 class First {
-	public synchronized void display(String msg)// [welcome][new][java programmer]
+	public  synchronized void display(String msg)// [welcome][new][java programmer]
 	{
 		System.out.print("[" + msg);
 		try {
-			Thread.sleep(5000);
+			Thread.sleep(3000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
