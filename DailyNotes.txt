@@ -824,10 +824,43 @@ FILE IO/Stream IO:
 	Set
 		HashSet,LinkedHashSet,TreeSet
 	
+	Bank Application
+	ProductManagement
+	EmployeeMaanagement
 	
 	
-	
-	
+	Bank Application
+		-->
+		1)Create Account
+		2)Display Account Info
+		3)Withdraw
+		4)Deposit
+		5)FundTransfer
+		6)Statement
+		7)statement between the dates
+		
+		
+		
+	ProductManagement
+		1)Add Product
+		2)Update Product
+		3)Delete Product
+		4)Get Product By Id
+		5)Get ALL Products
+		6)Get Products Between the Prices
+		7)Get Products By Category
+		
+		productId,productName,productPrice,productCategory,productDisc
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	
 	
 	
