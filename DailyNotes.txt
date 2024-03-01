@@ -853,8 +853,13 @@ FILE IO/Stream IO:
 		productId,productName,productPrice,productCategory,productDisc
 		
 		
+		Layered Architecture
 		
-		
+			presentation/ui layer
+			
+			service /business logic layer 
+			
+			dao/persistance layer 
 		
 		
 		
